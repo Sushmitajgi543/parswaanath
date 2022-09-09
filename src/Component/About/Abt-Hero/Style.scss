@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Abt-hero {
+    background-image: url("../../../Assets/Image/hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   display: flex;
+   flex-direction: column;
+    width: 100%;
+    padding: 2rem 0 0 0;
+
+    &-content , .container-custom {
+        display: flex;
+        
+        &-text {
+            padding: 7rem 10rem;
+            width: 100%;
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            
+
+            h1 {
+                font-size: 9.6rem;
+                font-weight: 200;
+                // font-family: "Montserrat",sans-serif;
+                letter-spacing: 4px;
+                line-height: 1.5;
+                span {
+                    color: #a7d309;
+                }
+            }
+            &-para {
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                padding: 4rem 62rem;
+
+               
+
+                p {
+                    width: 100%;
+                    text-align: center;
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+    &-scroll{
+        background-image: url("../../../Assets/Image/scroll.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        background-position: center;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 0;
+        button{
+            background-color: transparent;
+            border :none;
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.GetToKnow{
+    padding: 15rem;
+    background-image: url("../../Assets/Image/getoknow.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+div{
+    display: flex;
+    flex:auto;
+    width: 100%;
+    padding: 0 50rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    h1{
+        font-size: 6.4rem;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    button{
+        font-size: 2rem;
+        color: #fff;
+        border-color: #fff;
+        background-color: transparent;
+        border-radius: 10rem;
+        padding: 1rem 2rem;
+    }
+}

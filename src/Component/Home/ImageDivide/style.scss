@@ -1,0 +1,32 @@
+.ImageDivide{
+
+    .container-custom {
+        display: flex;
+        padding: 10rem  17rem 0 17rem;
+        flex-direction: row;
+        div{
+           border-radius: 2rem;
+            margin-right: 5rem;
+            padding: 33rem 22rem;
+            
+        }
+
+        .first{
+          background-image: url("../../../Assets/Image/first.png");
+          
+            margin-top: 10rem;
+            background-size: cover;
+
+        }
+        .second{
+            background-image: url('../../../Assets/Image/second.png');
+          
+            background-size: cover;
+
+        }
+        .third{
+            background-image: url('../../../Assets/Image/third.png');
+            background-size: cover;
+        }
+    }
+}

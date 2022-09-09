@@ -1,0 +1,102 @@
+.ProductSection{
+    background-image: url("../../../Assets/Image/product.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15rem 9rem;
+    border-radius: 0 0 10rem 10rem;
+
+    .container-custom {
+        display: flex;
+        flex-direction: column;
+        padding: 10rem 17rem;
+    }
+}
+.product-section {
+    background-image: url("../../../Assets/Image/abt.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5rem 9rem;
+
+    .container-custom {
+        display: flex;
+        flex-direction: column;
+        padding: 10rem 17rem;
+    }
+
+    &-top {
+        padding-right: 3rem;
+        display: flex;
+        width: 100%;
+        p {
+            font-size: 2.4rem;
+            color: #fff;
+            font-weight: 700;
+        }
+    }
+
+    &-bottom {
+        width: 100%;
+        display: flex;
+        &-left {
+            
+            width: 50%;
+            
+            h1 {
+                font-size: 6.4rem;
+                color: #fff;
+                font-weight: 300;
+                span {
+                    color: #F07501;
+                }
+            }
+        }
+        &-right {
+            padding: 0 3rem;
+            width: 50%;
+            p {
+                font-size: 1.6rem;
+                color: #fff;
+                padding-bottom: 2rem;
+                font-weight: 600;
+            }
+
+            button {
+                font-size: 2rem;
+                color: #fff;
+                border: 1px solid white;
+                border-radius: 30px;
+                background-color: transparent;
+                padding: 1rem 2rem;
+            }
+        }
+    }
+}
+
+.image{
+    display: flex;
+    width: 100%;
+    padding: 0 16rem;
+    flex-direction: row;
+    div{
+        padding: 25rem 20rem;
+        margin: 3rem;
+    }
+
+    .d1{
+        background-image: url("../../../Assets/Image/3.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .d2{
+        background-image: url("../../../Assets/Image/1.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .d3{
+        background-image: url("../../../Assets/Image/2.png");
+         background-repeat: no-repeat;
+        background-size: contain;
+    }
+}

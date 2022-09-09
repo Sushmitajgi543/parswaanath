@@ -1,0 +1,61 @@
+.OurStory {
+    background-image: url("../../../Assets/Image/abt.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5rem 9rem;
+
+    .container-custom {
+        display: flex;
+        flex-direction: column;
+        padding: 10rem 17rem;
+    }
+
+    &-top {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        p {
+            font-size: 2.4rem;
+            color: #fff;
+            font-weight: 700;
+        }
+    }
+
+    &-bottom {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+            h1 {
+                font-size: 6.4rem;
+                color: #fff;
+                font-weight: 300;
+               
+            }
+            div{
+                background-image: url("../../../Assets/Image/abtdes.png");
+                background-size: contain;
+                padding: 2rem 2rem;
+                background-repeat: no-repeat;
+            }
+
+       
+            p {
+                font-size: 1.6rem;
+                color: #fff;
+                padding:7rem 0;
+                font-weight: 500;
+            }
+
+            .image{
+                background-image: url('../../../Assets/Image/image.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding: 30rem;
+                
+            }
+
+            
+        }
+    }

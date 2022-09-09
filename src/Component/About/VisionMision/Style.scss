@@ -1,0 +1,80 @@
+.VisionMision {
+  
+    padding: 5rem 9rem;
+    padding-bottom: 25rem;
+
+    #div {
+        display: flex;
+        flex-direction: column;
+        padding: 10rem 17rem;
+    }
+
+    &-top {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        p {
+            font-size: 2.4rem;
+            font-weight: 700;
+        }
+    }
+
+    &-bottom {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+            h1 {
+                font-size: 6.4rem;
+                font-weight: 300;
+                padding-bottom: 2rem;
+
+                span{
+                    color:#7609A8;
+                }
+               
+            }
+            div{
+                background-image: url("../../../Assets/Image/vmdes.png");
+                background-size: contain;
+                padding: 3rem;
+                width: 43%;
+                background-position: right;
+                background-repeat: no-repeat;
+            }
+
+       
+
+            
+        }
+
+        #vision-mission{
+            padding: 0rem 17rem;
+            
+
+            .content{
+               
+                display: flex;
+                
+
+                div{
+                    width: 50%;
+                    padding: 0 2rem;
+
+                    h3{
+                        font-size: 3.6rem;
+                        
+                    }
+                    p{
+                        font-weight: 600;
+                        padding-top: 2rem;
+                        padding-right: 12rem;
+                        font-size: 1.6rem;
+                        span{
+                            color: #7609A8;
+                        }
+                    }
+                }
+            }
+        }
+    }
